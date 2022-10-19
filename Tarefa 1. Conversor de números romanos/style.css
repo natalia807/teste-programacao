@@ -1,0 +1,20 @@
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#22223b;
+    font-family: 'Poppins', sans-serif;
+}
+.display{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#form {
+    text-align: center;
+    width: 250px;
+    height: 130px;
+}

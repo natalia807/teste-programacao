@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Divisor de Contas | Teste de Programação </title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora Divisora de Contas</h1>
+        <h2>Como Usar:</h2>
+        <p>Primeiro, você vai adicionar as pessoas, o valor e produtos.</p>
+        <p>Em seguida, marque na tabela o que cada um consumiu.</p>
+    </header>
+
+    <label for="produto">Produto:</label>
+    <input type="text" id="produto">
+
+    <label for="valor-produto" >R$:</label>
+    <input type="number" id="valor-produto" size="6">
+
+    <button onclick="AdicionaProduto()">adicionar</button>
+    <br><br>
+
+    <label for="pessoa">Pessoa:</label>
+    <input type="text" id="pessoa">
+    <button onclick="AdicionaPessoa()">adicionar</button>
+
+    <div>
+        <h3>Pessoas:</h3>
+        <ul id="lista-pessoas"></ul>
+    </div>
+
+    <div>
+        <h3>Produtos</h3>
+        <ul id="lista-produtos"></ul>
+    </div>
+
+    <div id="table-div">
+        <h3>Quem consumiu?</h3>
+    </div>
+
+    <div id="table-bill">
+        <h3>Total a pagar</h3>
+        
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
